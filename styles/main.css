@@ -1,0 +1,243 @@
+
+body {
+  margin: 0px;
+  font-family: Lato;
+  line-height: 16px;
+  color: #005238;
+}
+.header {
+  width: 100%;
+  background: green;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-size: 12px;
+  font-style: normal;
+  color: #005238;
+  background: white;
+  position: fixed;
+  width: 96%;
+  z-index: 100;
+
+}
+
+.menu-select {
+  width: 100%;
+  height: 2px;
+  background:#005238;
+}
+
+.plant-img {
+  position: relative;
+}
+
+.section-container {
+  margin: 8px;
+}
+
+.menu > section {
+  display: flex;
+}
+
+.menu > section > div {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8px;
+}
+
+.menu > section > div > i {
+  text-align: center;
+  font-size: 32px;
+  
+}
+
+.description-green-container {
+  padding: 8px;
+  background: #005238;
+  width: calc(100% - 30px);
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+
+.title-white {
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.title-body {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.icon-slide {
+  display: flex;
+  justify-content: center
+}
+
+.slide-select {
+  background: white !important;
+}
+
+.slide-select-services {
+  background: #177159 !important;
+}
+
+.icon-slide > div {
+  background: #177159;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  margin: 4px;
+}
+
+.icon-slide-services > div {
+  background: #A2A2A2;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  margin: 4px;
+}
+
+.icon-slide-services {
+  display: flex;
+  justify-content: center
+}
+
+h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.description {
+  display: flex
+}
+
+.desciption-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 8px;
+}
+
+.service-description {
+  margin: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+img {
+  border-radius: 4px;
+}
+
+.galery {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 16px;
+  padding: 8px;
+}
+
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: solid 1px #005238;
+  border-radius: 4px;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+textarea {
+  border: solid 1px #005238;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+button {
+  color: white;
+  height: 48px;
+  background: #005238;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+::placeholder {
+  color: #005238;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-home {
+  background: #005238;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.footer-paragraph {
+  width: 50%;
+}
+
+.footer-paragraph > p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-container {
+  margin: 8px 8px 0px 8px;
+}
+
+.footer-text {
+  margin-top: -20px;
+}
+
+.footer-container > h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  padding: 16px 0px;
+}
+
+.footer-icons > i {
+  font-size: 32px;
+  margin-right: 16px;
+}
+
+.img-position {
+  margin-top: 64px;
+}
